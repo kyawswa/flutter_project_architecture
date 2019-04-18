@@ -1,4 +1,5 @@
 import 'package:event_bus/event_bus.dart';
+import 'package:flutter_app_mvp/model/incrementor.dart';
 
 class IncrementAction {
   Event type;
@@ -15,6 +16,7 @@ enum Event {
 class IncrementPresenter {
 
   final EventBus eventBus = EventBus();
+  final Incrementor incrementor = Incrementor();
 
   IncrementPresenter() {
     incrementListener();
@@ -26,8 +28,8 @@ class IncrementPresenter {
       print(event.increment);
       switch(event.type) {
         case Event.ADD_INCREMENT:
-          // response event to update the UI.
-          eventBus.fire(IncrementAction(Event.RESPONSE, event.increment+1));
+          // response event to update the UI. call model service increment method. Presenter only handle ui logic.
+          eventBus.fire(IncrementAction(Event.RESPONSE, incrementor.increment(event.increment)));
           break;
         default:
           break;
