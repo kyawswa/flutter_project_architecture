@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/flutter_app_mvp/android/app/src/debug/debug.iml" filepath="$PROJECT_DIR$/flutter_app_mvp/android/app/src/debug/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flutter_video_player/build/video_player/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/aapt.iml" filepath="$PROJECT_DIR$/flutter_video_player/build/video_player/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/aapt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flutter_video_player/build/app/generated/source/buildConfig/buildConfig.iml" filepath="$PROJECT_DIR$/flutter_video_player/build/app/generated/source/buildConfig/buildConfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flutter_video_player/build/video_player/generated/source/buildConfig/buildConfig1.iml" filepath="$PROJECT_DIR$/flutter_video_player/build/video_player/generated/source/buildConfig/buildConfig1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flutter_video_player/android/app/src/debug/debug.iml" filepath="$PROJECT_DIR$/flutter_video_player/android/app/src/debug/debug.iml" />
       <module fileurl="file://$PROJECT_DIR$/flutter_app_bloc/flutter_app_bloc.iml" filepath="$PROJECT_DIR$/flutter_app_bloc/flutter_app_bloc.iml" />
       <module fileurl="file://$PROJECT_DIR$/flutter_app_mvp/flutter_app_mvp.iml" filepath="$PROJECT_DIR$/flutter_app_mvp/flutter_app_mvp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flutter_video_player/build/video_player/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/generateDebugRFile.iml" filepath="$PROJECT_DIR$/flutter_video_player/build/video_player/generated/not_namespaced_r_class_sources/debug/generateDebugRFile/generateDebugRFile.iml" />
       <module fileurl="file://$PROJECT_DIR$/flutter_app_bloc/android/app/src/main/main.iml" filepath="$PROJECT_DIR$/flutter_app_bloc/android/app/src/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/flutter_app_mvp/android/app/src/main/main1.iml" filepath="$PROJECT_DIR$/flutter_app_mvp/android/app/src/main/main1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/flutter_app_mvp/android/app/src/profile/profile.iml" filepath="$PROJECT_DIR$/flutter_app_mvp/android/app/src/profile/profile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flutter_video_player/android/app/src/main/main2.iml" filepath="$PROJECT_DIR$/flutter_video_player/android/app/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flutter_video_player/build/video_player/intermediates/merged_manifests/debug/processDebugManifest/merged/merged.iml" filepath="$PROJECT_DIR$/flutter_video_player/build/video_player/intermediates/merged_manifests/debug/processDebugManifest/merged/merged.iml" />
+      <module fileurl="file://$PROJECT_DIR$/performance_profiling/performance_profiling.iml" filepath="$PROJECT_DIR$/performance_profiling/performance_profiling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flutter_video_player/build/app/generated/not_namespaced_r_class_sources/debug/processDebugResources/processDebugResources.iml" filepath="$PROJECT_DIR$/flutter_video_player/build/app/generated/not_namespaced_r_class_sources/debug/processDebugResources/processDebugResources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flutter_video_player/android/app/src/profile/profile.iml" filepath="$PROJECT_DIR$/flutter_video_player/android/app/src/profile/profile.iml" />
     </modules>
   </component>
 </project>
