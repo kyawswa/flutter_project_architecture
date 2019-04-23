@@ -88,12 +88,19 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Text(
               '$_counter',
+              // Provide a Key to this specific Text Widget. This allows us
+              // to identify this specific Widget from inside our test suite and
+              // read the text.
+              key: Key('counter'),
               style: Theme.of(context).textTheme.display1,
             ),
           ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
+        // Provide a Key to this the button. This allows us to find this
+        // specific button and tap it inside the test suite.
+        key: Key('increment'),
         onPressed: () {eventBus.fire(IncrementAction(Event.ADD_INCREMENT, _counter));},
         tooltip: 'Increment',
         child: Icon(Icons.add),
